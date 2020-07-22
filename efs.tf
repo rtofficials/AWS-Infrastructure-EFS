@@ -3,8 +3,8 @@ provider "aws" {
 	version = "~> 2.66"
 	region     = "ap-south-1"
 	profile    = "iam-user"
-	access_key = "AKIATHVUJBULC22SCU4K"
-	secret_key = "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"
+	access_key = "access-Key-here"
+	secret_key = "Secret-Key-here"
 
 }
 
