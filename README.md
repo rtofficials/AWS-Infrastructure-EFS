@@ -7,6 +7,7 @@ But, the Storage Services are not limited to these two storages and choosing sto
 You can go through my entire article here : https://www.linkedin.com/pulse/terraform-aws-infrastructure-elastic-file-system-aarti-anand/
 
 Steps :
+-------
   1.  Creating a Github repo and storing the content of website in there.
   2.  Configuring provider and user.
   3.  Creating KeyPair.
@@ -21,8 +22,11 @@ Steps :
  And that's it!
  
  Don't forget to run 'terraform init' to download plugins and other dependencies. And then run 'terraform apply'
+ ---------------------------------------------------------------------------------------------------------------
 . Now, using 'terraform apply', you may need to write 'yes' a lot of times; so you can also use 'terraform apply --auto-approve' so that it will approve for all the permissions asked while running code.
 
 Don't forget the 'stop' you instance or you may be charged after 750 Hrs.
-
+-------------------------------------------------------------------------
 Code contains proper comments for better uderstanding.
+
+Enjoy :)
