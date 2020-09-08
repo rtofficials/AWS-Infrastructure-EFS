@@ -16,7 +16,7 @@ resource "tls_private_key" "emelinKeyPair" {
 
 resource "aws_key_pair" "emelinKey" {
 	key_name   = "emelinKey"
-	public_key = "ssh-rsa AAAAB3NzCN8Ey7hjssUkL93gYrinMC+e/YAmmtHj5cEcCjGzojeBynmprAhzmhmQOfh8w0smSBDss1zbVnay77lEebkLIW5HUOzt3yxkS1q39bkATULl6mRN4XnYPiq4cN/ORJ91H/rAd96SKnnzoG5YJ7tee2RMdi+4sshA8SuoZfvxY3vVtow646gLdNe2/EeOxKvdfJO6lMScI52oE7MzbC3mM= silverhonk@armour"
+	public_key = "ssh-rsa AAAAB3NzCcN/ORJ91H/rAd96SKnnzoG5YshA8SuoZfvxY3vVtow646gzbC3mM= silverhonk@armour"
 	depends_on = [tls_private_key.emelinKeyPair]
 
 }
